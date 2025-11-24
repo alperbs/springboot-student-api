@@ -24,9 +24,11 @@ Uses Spring Boot's built-in Tomcat server
 
 No database required (in-memory list)
 
+
+
 📂 Project Structure
 css
-Kodu kopyala
+
 src/
  └─ main/
      ├─ java/
@@ -58,35 +60,48 @@ Install Maven
 Run the application:
 
 bash
-Kodu kopyala
+
 mvn spring-boot:run
 or run StudentApiApplication directly from your IDE.
 
 The API will be available at:
 
 arduino
-Kodu kopyala
+
 http://localhost:8080
 🧪 API Testing Examples
 GET all students
 bash
-Kodu kopyala
+
 GET http://localhost:8080/students
 POST add a student
 bash
-Kodu kopyala
+
 POST http://localhost:8080/students/add
 Content-Type: application/json
 Body:
 
 json
-Kodu kopyala
+
 {
   "name": "Alper",
   "age": 21
 }
 📄 License
 This project is open-source and free to use for educational or demonstration purposes.
+
+Future Improvements
+
+Move from in-memory to PostgreSQL / MySQL
+Add validation (age > 0, name not empty, etc.)
+Add Service layer + DTOs
+Add Swagger/OpenAPI documentation
+Add exception handling & custom error responses
+Add unit tests (JUnit + Mockito)
+Containerize with Docker
+Implement JWT authentication
+
+
 
 👤 Author
 Alper B.
