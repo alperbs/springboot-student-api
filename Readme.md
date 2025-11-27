@@ -1,4 +1,5 @@
 # Student API - Spring Boot
+Looking for Erasmus+ Internship – Full-Stack Development
 
 A simple RESTful API built with **Spring Boot**, designed to manage basic student data.  
 This project was created as part of my Erasmus Internship application and demonstrates foundational backend development skills, including REST architecture, request handling, and in-memory data processing.
